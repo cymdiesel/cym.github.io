@@ -7,6 +7,9 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: right;
     background: #fff;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 
     @media screen and (max-width: 768px) {
         height: 1500px;
@@ -68,7 +71,7 @@ export const ProjectsH1 = styled.h1`
     color: #F18F01; 
     margin-bottom: 10px; 
     text-align: right;
-    padding: 0 30px;
+    padding: 0 50px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -96,7 +99,7 @@ export const ProjectsTopline = styled.p`
     text-transform: uppercase;
     margin-bottom: 16px;
     text-align: right;
-    padding: 0 30px;
+    padding: 0 50px;
 `;
 
 export const ProjectsLink = styled.button`

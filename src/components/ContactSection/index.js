@@ -39,7 +39,7 @@ const Contact = () => {
   
     return (
         <>
-        <ContactContainer >
+        <ContactContainer id='contact'>
             <ContactWrapper>
                 <InfoRow>
                 <Column1>

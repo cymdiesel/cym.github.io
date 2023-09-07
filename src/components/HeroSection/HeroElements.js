@@ -9,19 +9,24 @@ export const HeroContainer = styled.div`
     height: 700px;
     position: relative:
     z-index: 1;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto; 
     
 `;
 
 
 export const HeroContent = styled.div`
     z-idex: 3;
-    max-width: 1200px; 
+    max-width: 1000px; 
     position: aboslute; 
     padding: 0; 
     display: flex; 
     flex-direction: column; 
     flex: 1;
-    align-items: left;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto; 
 `;
 
 export const HeroH1 = styled.h1`

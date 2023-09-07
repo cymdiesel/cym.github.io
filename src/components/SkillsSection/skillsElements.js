@@ -7,6 +7,9 @@ export const SkillsCardContainer = styled.div`
     justify-content: center;
     align-items: right;
     background: #fff;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 
     @media screen and (max-width: 768px) {
         height: 700px;
@@ -32,6 +35,11 @@ export const SkillsWrapper = styled.div`
 
     @media screen and (max-width: 450px) {
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 20px;
+    }
+
+    @media screen and (max-width: 80px) {
+        grid-template-columns: 1fr 1fr;
         padding: 0 20px;
     }
 `;
