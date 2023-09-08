@@ -92,25 +92,25 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
-export const ResumeButton = styled.button`
-    a:link { 
-        color: #FFF;
-        text-decoration: none;
-    }
-    a:visited {
-        color: #FFF;
-        text-decoration: none;
-    }
-    font-size: 15px;
-    font-weight: bold;
-    background: #F18F01;
-    padding: 15px;
-    border: none;
-    border-radius: 10px; 
-    margin-left: 300px;
+// export const ResumeButton = styled.button`
+//     a:link { 
+//         color: #FFF;
+//         text-decoration: none;
+//     }
+//     a:visited {
+//         color: #FFF;
+//         text-decoration: none;
+//     }
+//     font-size: 15px;
+//     font-weight: bold;
+//     background: #F18F01;
+//     padding: 15px;
+//     border: none;
+//     border-radius: 10px; 
+//     margin-left: 300px;
 
-    &:hover{
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;  
-    }
-`;
+//     &:hover{
+//         transform: scale(1.02);
+//         transition: all 0.2s ease-in-out;  
+//     }
+// `;

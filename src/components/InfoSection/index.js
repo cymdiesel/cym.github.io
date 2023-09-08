@@ -13,7 +13,7 @@ import {
     Description,
     ResumeButton
 } from './InfoElements'
-import pdf from "../Resume/Cymantha.pdf"
+//import pdf from "../Resume/Cymantha.pdf"
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headline,description, img, alt}) => {
   return (
@@ -26,9 +26,9 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headl
                 <TopLine >{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Description darkText={darkText}>{description}</Description>
-                <ResumeButton>
+                {/* <ResumeButton>
                 <a href={pdf} download>Cym's Resume</a>
-                </ResumeButton>
+                </ResumeButton> */}
               </TextWrapper>
               </Column1>
               <Column2>

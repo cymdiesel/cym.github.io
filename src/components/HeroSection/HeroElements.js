@@ -24,7 +24,7 @@ export const HeroContent = styled.div`
     display: flex; 
     flex-direction: column; 
     flex: 1;
-    align-items: center;
+    align-items: left;
     margin-right: auto;
     margin-left: auto; 
 `;
@@ -72,3 +72,27 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
+export const ResumeButton = styled.button`
+    a:link { 
+        color: #FFF;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    font-size: 15px;
+    font-weight: bold;
+    background: #F18F01;
+    padding: 15px;
+    border: none;
+    border-radius: 10px; 
+    margin: 50px 0;
+    max-width: 175px;
+
+
+    &:hover{
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;  
+    }
+`;
